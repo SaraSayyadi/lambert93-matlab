@@ -4,7 +4,7 @@ A small MATLAB package for converting geographic coordinates (latitude/longitude
 
 This package is organized so it can be used more easily from GitHub, reused in other projects, and extended later into a MATLAB toolbox.
 
-## What changed from the original repository
+
 
 The original repository contains:
 
@@ -12,13 +12,7 @@ The original repository contains:
 - a function called `lambert2.m`
 - a minimal README
 
-That version works as a one-off script, but it is harder for other users to reuse because:
 
-- it depends on a specific Excel file name
-- projection constants are hard-coded inside the script
-- the repository title says Lambert-93, but the parameters in the script are not the standard Lambert-93 defaults
-
-This package separates reusable functions from examples and adds parameter presets.
 
 ## Package structure
 
@@ -91,14 +85,6 @@ outTable = lambertproj.convert_excel(
     "Latitude", ...
     "Longitude");
 ```
-
-## Suggested GitHub improvements
-
-- Rename the repository to something like `lambert93-matlab`
-- Rename `covert.m` because it looks like a typo
-- Keep examples separate from the core functions
-- Add a license
-- Add a short release note when you publish a first version
 
 ## Suggested next step inside MATLAB
 
