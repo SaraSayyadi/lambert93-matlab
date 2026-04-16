@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Lambert93 MATLAB Package
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Sayyadi
+    given-names: Sara
+    affiliation: University of Nevada, Reno
+version: 1.0.0
+date-released: 2026-04-16
+abstract: >
+  MATLAB tools for converting geographic coordinates (latitude, longitude)
+  to Lambert Conformal Conic projections, including Lambert-93 and custom
+  projection parameters for geophysical applications.
+keywords:
+  - MATLAB
+  - geophysics
+  - coordinate transformation
+  - Lambert projection
+  - DAS
+license: MIT
