@@ -93,3 +93,10 @@ If you want a downloadable toolbox file, open MATLAB and use:
 - **Home -> Add-Ons -> Package Toolbox**
 
 Then package this folder as a `.mltbx` file.
+
+## Citation
+
+If you use this package, please cite:
+
+Sayyadi, S. (2026). *Lambert93 MATLAB Package*.  
+GitHub repository: https://github.com/SaraSayyadi/lambert93-matlab
